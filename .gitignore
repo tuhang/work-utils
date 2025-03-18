@@ -1,0 +1,48 @@
+# Python相关忽略
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python虚拟环境
+.env
+.venv
+venv/
+ENV/
+.python-version
+
+# Visual Studio相关忽略
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.idea/
+.history/
+
+# 项目特定文件
+images/
+temp_*
+*.log
+
+# 运行时产生的临时文件
+*.xlsx
+!*-个人.xlsx
